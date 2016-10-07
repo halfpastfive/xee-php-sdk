@@ -1,0 +1,21 @@
+{
+  "name": "halfpastfive/xee-php-sdk",
+  "description": "A PHP SDK for the Xee V3 APIs",
+  "license": "Apache 2.0",
+  "keywords": ["xee"],
+  "authors": [
+    {
+      "name": "Benjamin Dubois",
+      "email": "halfpastfive@gmail.com"
+    }
+  ],
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "4.0.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "HPF\\Xee\\": "src"
+    }
+  }
+}
