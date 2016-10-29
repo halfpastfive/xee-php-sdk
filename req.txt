@@ -1,0 +1,21 @@
+*   Trying 46.105.116.220...
+* Connected to sandbox.xee.com (46.105.116.220) port 443 (#0)
+* TLS 1.2 connection using TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+* Server certificate: *.xee.com
+* Server certificate: thawte SSL CA - G2
+* Server certificate: thawte Primary Root CA
+> GET /v3/users/2 HTTP/1.1
+Host: sandbox.xee.com
+User-Agent: HPF/Xee-php-sdk
+Accept: */*
+Accept-Encoding: deflate, gzip
+Authorization: Bearer 1AZDZD234
+
+< HTTP/1.1 200 OK
+< Date: Fri, 28 Oct 2016 23:18:46 GMT
+< Content-Type: application/json; charset=UTF-8
+< Transfer-Encoding: chunked
+< Connection: keep-alive
+< Content-Encoding: gzip
+< 
+* Connection #0 to host sandbox.xee.com left intact

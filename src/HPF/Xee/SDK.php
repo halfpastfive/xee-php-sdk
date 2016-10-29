@@ -14,7 +14,7 @@ use HPF\Xee\Model\Token;
 class SDK
 {
     const BASE_URL = '%s.xee.com';
-    const AUTH_ROUTE = '%s/auth/auth?client_id=%s&redirect_uri=%s';
+    const AUTH_ROUTE = 'https://%s/v1/auth/auth?client_id=%s&redirect_uri=%s';
     /**
      * @var string
      */
@@ -63,7 +63,7 @@ class SDK
     /**
      * Returns the Authentication form url for your app
      *
-     * @param string | null $state a state 
+     * @param string | null $state a state
      * @return string
      */
     public function getAuthenticationUrl($state = null)
